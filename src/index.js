@@ -21,7 +21,7 @@ app.use(taskRouter)
 //setup the port used
 //heroku uses process.env.Port so we say that it can use this port if it is available
 //but if we are on local host, we will use port 3000
-const port = process.env.Port || 3000
+const port = process.env.Port 
 
 
 app.listen(port, () => {
